@@ -1,0 +1,19 @@
+{
+  "name": "react-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server public",
+    "build": "babel src/app.js --out-file=public/scripts/bundle.js --presets=env,react --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.0"
+  }
+}
